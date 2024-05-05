@@ -1,4 +1,26 @@
 #root {
-
 }
 
+.card {
+  width: 360px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 17px;
+  padding: 15px;
+}
+
+.card__text_field {
+  width: 160px;
+}
+.card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2%;
+}
+
+.card__tooltip {
+  background-color: rgb(221, 234, 244);
+}
